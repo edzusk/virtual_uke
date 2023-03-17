@@ -1,4 +1,4 @@
-# html_ts_boilerplate
+# virtual ukulele
 To start coding open your terminal and write
 ```
 npm i
