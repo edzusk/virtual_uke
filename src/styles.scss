@@ -48,6 +48,10 @@ body {
   font-size: 1.2rem;
   background-color: #EF60A3;
   border: 2px solid #1D6960;
+  &:active {
+    background-color: #1D6960;
+    border: 2px solid #EF60A3;
+  }
   &:focus {
     outline: none;
   }

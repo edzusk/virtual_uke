@@ -8,3 +8,4 @@ When all packages have been installed run:
 ```
 npm start
 ```
+![alt text](./screenshot.png)
