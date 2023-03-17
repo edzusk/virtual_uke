@@ -1,0 +1,104 @@
+@font-face { font-family: Onboard; src: url('./assets/Onboard.woff'); } 
+body {
+  font-family: Onboard, "Helvetica Neue",;
+  background-color: #FFCC52;
+  font-size: 16px;
+}
+.header {
+  display: flex;
+  width: 100%;
+  margin: auto 0;
+  padding: 30px;
+  font-size: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.ukulele__chords {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.section {
+  height: 100vh;
+  background-image: url(./assets/images/background-min.jpg);
+  background-size: cover;
+}
+
+.ukulele {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ukulele__image {
+  width: 100%;
+}
+
+.ukulele__instrument {
+  width: 100%;
+  position: relative;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #EF60A3;
+  border: 2px solid #1D6960;
+  &:focus {
+    outline: none;
+  }
+  &--strumup {
+    position: absolute;
+    right: 50%;
+    top: 10%;
+  }
+  &--strumdown {
+    position: absolute;
+    right: 50%;
+    bottom: 10%;
+  }
+}
+.active {
+  background-color: #1D6960;
+  border: 2px solid #EF60A3;
+}
+
+.string {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  // background-color: red;
+  right: 20%;
+
+  &--one {
+    top: 42%;
+  }
+
+  &--two {
+    top: 46%;
+  }
+
+  &--three {
+    top: 51%;
+  }
+
+  &--four {
+    top: 56%
+  }
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.instructions__text {
+  font-size: 2rem;
+}
