@@ -1,5 +1,7 @@
 # virtual ukulele
-you can try https://bespoke-florentine-7217fd.netlify.app/
+you can try https://virtual-uke.netlify.app/
+
+
 To start coding open your terminal and write
 ```
 npm i
